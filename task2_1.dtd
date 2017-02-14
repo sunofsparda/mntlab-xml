@@ -1,10 +1,12 @@
 <!ELEMENT store (watch, shoes, headphones, cars, mfu)>
-<!ELEMENT item (vendor, model, date, color, price, pieces)>
+
 <!ELEMENT watch (item)*>
 <!ELEMENT shoes (item)*>
 <!ELEMENT headphones (item)*>
 <!ELEMENT cars (item)*>
 <!ELEMENT mfu (item)*>
+
+<!ELEMENT item (vendor, model, date, color, price, pieces)>
 <!ELEMENT vendor	(#PCDATA)>
 <!ELEMENT model	(#PCDATA)>
 <!ELEMENT date	(#PCDATA)>

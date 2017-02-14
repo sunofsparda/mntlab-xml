@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
-
+<!DOCTYPE store SYSTEM "task2_1.dtd">
+<store>
+<!--	
 <store schemaLocation="http://localhost:8080/task2_1.xsd" xmlns="http://localhost:8080">
+-->
 		<watch>
 			<item>
 				<vendor>Casio</vendor>
