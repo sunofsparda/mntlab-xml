@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<catalog>
+	<product description="Cardigan Sweater" product_image="cardigan.jpg">
+		<catalog_item gender="Men's">
+		<item_number>QWZ5671</item_number>
+		<price>39.95</price>
+		<size description="Medium">
+			<color_swatch image="red_cardigan.jpg">Red</color_swatch>
+			<color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+		</size>
+
+		<!-- “descritpion” removed from <size> -->
+		<size> 
+			<color_swatch image="red_&amp;cardigan.jpg">Red</color_swatch>
+			<color_swatch image="burgundy_cardigan.jpg">Burgundy</color_swatch>
+		</size>
+		</catalog_item>
+		<!-- <catalog_item /> removed from here -->
+	</product>
+</catalog>
