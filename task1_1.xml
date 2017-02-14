@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<department>
+
+	<person>
+		<firstname>Jack</firstname>
+		<lastname>Richard</lastname>
+		<middlename>Shepard</middlename>
+		<sex>male</sex>
+		<birthday>21.02.1970</birthday>
+		<phone>
+			<homeP>123456789</homeP>
+			<workP>1122334455</workP>
+			<mobileP>9988776655</mobileP>
+		</phone>
+		<email>
+			<mail>jack_shepard@email.com</mail>
+		</email>
+		<child>
+			<nlm>Jane Jack Shepard</nlm>
+			<birthday>21.07.1996</birthday>
+		</child>
+	</person>
+
+	<person>
+		<firstname>Helena</firstname>
+		<lastname>Malcolm</lastname>
+		<middlename>Drake</middlename>
+		<sex>female</sex>
+		<birthday>28.07.1972</birthday>
+		<phone>
+			<homeP>123456789</homeP>
+			<workP>1122334455</workP>
+			<mobileP>9988776655</mobileP>
+		</phone>
+		<email>
+			<mail>qwerty@email.com</mail>
+			<mail>qwe123@m.com</mail>
+		</email>
+		<child>
+			<nlm>Albert Francis Drake</nlm>
+			<birthday>12.12.2000</birthday>
+		</child>
+	</person>
+
+	<person>
+		<firstname>Igor</firstname>
+		<lastname>Igorevich</lastname>
+		<middlename>Igorev</middlename>
+		<sex>male</sex>
+		<birthday>01.01.1990</birthday>
+		<phone>
+			<homeP>123456789</homeP>
+			<workP>1122334455</workP>
+			<mobileP>9988776655</mobileP>
+		</phone>
+		<email>
+			<mail></mail>
+		</email>
+		<child>
+			<nlm>Pavel Igorevich Igorev</nlm>
+			<birthday>01.01.2017</birthday>
+			<nlm>Vasiliy Igorevich Igorev</nlm>
+			<birthday>01.01.2017</birthday>
+		</child>
+	</person>
+
+</department>

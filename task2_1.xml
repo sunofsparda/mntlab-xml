@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+
+<store schemaLocation="http://localhost:8080/task2_1.xsd" xmlns="http://localhost:8080">
+		<watch>
+			<item>
+				<vendor>Casio</vendor>
+				<model>ab123</model>
+				<date>01-01-2010</date>
+				<color>white</color>
+				<price>10</price>
+				<pieces>100</pieces>
+			</item>
+		</watch>
+
+		<shoes>
+			<item>
+				<vendor>Nike</vendor>
+				<model>zx111</model>
+				<date>05-05-2015</date>
+				<color>blue</color>
+				<price>30</price>
+				<pieces>50</pieces>
+			</item>
+		</shoes>
+
+		<headphones>
+			<item>
+				<vendor>Marshall</vendor>
+				<model>qz888</model>
+				<date>10-10-2016</date>
+				<color>black</color>
+				<price>100</price>
+				<pieces>5</pieces>
+			</item>
+		</headphones>
+
+		<cars>
+			<item>
+				<vendor>Cadillac</vendor>
+				<model>Coupe De Ville</model>
+				<date>01-07-1959</date>
+				<color>white</color>
+				<price>99999</price>
+				<pieces>1</pieces>
+			</item>
+		</cars>
+
+		<mfu>
+			<item>
+				<vendor>HP</vendor>
+				<model>1110</model>
+				<date>01-01-2008</date>
+				<color>grey</color>
+				<price>20</price>
+				<pieces>0</pieces>
+			</item>
+		</mfu>
+</store>

@@ -1,0 +1,6 @@
+<!ELEMENT store (watch, shoes, headphones, cars, mfu)>
+<!ELEMENT watch (item) >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT birthdate (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT socialsecuritynumber (#PCDATA)>
