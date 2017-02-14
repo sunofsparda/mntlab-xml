@@ -1,6 +1,13 @@
 <!ELEMENT store (watch, shoes, headphones, cars, mfu)>
-<!ELEMENT watch (item) >
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT birthdate (#PCDATA)>
-<!ELEMENT gender (#PCDATA)>
-<!ELEMENT socialsecuritynumber (#PCDATA)>
+<!ELEMENT item (vendor, model, date, color, price, pieces)>
+<!ELEMENT watch (item)*>
+<!ELEMENT shoes (item)*>
+<!ELEMENT headphones (item)*>
+<!ELEMENT cars (item)*>
+<!ELEMENT mfu (item)*>
+<!ELEMENT vendor	(#PCDATA)>
+<!ELEMENT model	(#PCDATA)>
+<!ELEMENT date	(#PCDATA)>
+<!ELEMENT color	(#PCDATA)>
+<!ELEMENT price	(#PCDATA)>
+<!ELEMENT pieces	(#PCDATA)>
